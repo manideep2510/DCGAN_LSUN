@@ -39,3 +39,17 @@ $ python dcgan_LSUN.py
 Download the dataset from [this link](https://www.kaggle.com/jhoward/lsun_bedroom/home).
 
 In the [`dcgan_LSUN.py`](dcgan_LSUN.py) code when we are reading the images into a numpy array, take care of the images path carefully. You will be required to change that part of code as your paths for the images would be diffirent than mine.
+
+## Architecture
+
+<p align="center">
+    <img src="https://github.com/manideep2510/DCGAN_LSUN/blob/master/writeup/generator.png" width="640"\>
+</p>
+
+Architecture guidelines for stable Deep Convolutional GANs,
+
+- Replace any pooling layers with strided convolutions (discriminator) and fractional-strided convolutions (generator).
+- Use batchnorm in both the generator and the discriminator.
+- Remove fully connected hidden layers for deeper architectures.
+- Use ReLU activation in generator for all layers except for the output, which uses Tanh.
+- Use LeakyReLU activation in the discriminator for all layers.
