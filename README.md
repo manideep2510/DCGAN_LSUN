@@ -10,7 +10,7 @@ The model is trained on the [LUSN](http://lsun.cs.princeton.edu/2017/) dataset.
 
 The original dataset is in a somewhat awkward format (lmdb) and the widely-used bedroom category is very large (43GB), and it requires a python2-only script to download it. 
 
-Therefore thERE is a repackaged version as a simple folder of jpgs, containing a random sample. The partial dataset with images in JPG format can be found at [LSUN bedroom scene 20% sample](https://www.kaggle.com/jhoward/lsun_bedroom/home) on Kaggle and is prepared by [Jeremy Howard](http://www.fast.ai/about/#jeremy).
+Therefore there is a repackaged version as a simple folder of jpgs, containing a random sample. The partial dataset with images in JPG format can be found at [LSUN bedroom scene 20% sample](https://www.kaggle.com/jhoward/lsun_bedroom/home) on Kaggle and is prepared by [Jeremy Howard](http://www.fast.ai/about/#jeremy).
 
 When reading the images, folder arrangement of this dataset should be carefully taken care of.
 
@@ -53,3 +53,13 @@ Architecture guidelines for stable Deep Convolutional GANs,
 - Remove fully connected hidden layers for deeper architectures.
 - Use ReLU activation in generator for all layers except for the output, which uses Tanh.
 - Use LeakyReLU activation in the discriminator for all layers.
+
+## References
+
+- [Unsupervised representation learning with Deep Convolutional Generative Adversarial Networks](https://arxiv.org/pdf/1511.06434.pdf)', Alec Radford, Luke Metz and Soumith Chintala.
+
+- [Large-Scale Scene Understanding](http://lsun.cs.princeton.edu/2017/)
+
+- [LSUN bedroom scene 20% sample](https://www.kaggle.com/jhoward/lsun_bedroom/home)
+
+- [Keras](https://keras.io/)
