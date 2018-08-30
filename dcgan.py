@@ -162,7 +162,7 @@ def save_imgs(epoch):
 
 epochs = 100
 batch_size=128
-save_interval=50
+save_interval=5
 
 # Rescale -1 to 1
 X_train = X_train / 127.5 - 1.
