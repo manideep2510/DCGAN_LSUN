@@ -43,7 +43,7 @@ In the [`dcgan_LSUN.py`](dcgan_LSUN.py) code when we are reading the images into
 ## Architecture
 
 <p align="center">
-    <img src="https://github.com/manideep2510/DCGAN_LSUN/blob/master/writeup/generator.png" width="640"\>
+    <img src="https://github.com/manideep2510/DCGAN_LSUN/blob/master/writeup/generator.png" width="800"\>
 </p>
 
 Architecture guidelines for stable Deep Convolutional GANs,
