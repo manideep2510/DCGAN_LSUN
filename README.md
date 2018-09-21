@@ -56,10 +56,10 @@ Architecture guidelines for stable Deep Convolutional GANs,
 
 ## References
 
-- [Unsupervised representation learning with Deep Convolutional Generative Adversarial Networks](https://arxiv.org/pdf/1511.06434.pdf)', Alec Radford, Luke Metz and Soumith Chintala.
+[1] [Unsupervised representation learning with Deep Convolutional Generative Adversarial Networks](https://arxiv.org/pdf/1511.06434.pdf)', Alec Radford, Luke Metz and Soumith Chintala.
 
-- [Large-Scale Scene Understanding](http://lsun.cs.princeton.edu/2017/)
+[2] [Large-Scale Scene Understanding](http://lsun.cs.princeton.edu/2017/)
 
-- [LSUN bedroom scene 20% sample](https://www.kaggle.com/jhoward/lsun_bedroom/home)
+[3] [LSUN bedroom scene 20% sample](https://www.kaggle.com/jhoward/lsun_bedroom/home)
 
-- [Keras](https://keras.io/)
+[4] [Keras](https://keras.io/)
